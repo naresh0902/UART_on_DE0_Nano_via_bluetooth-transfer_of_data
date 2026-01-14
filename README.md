@@ -142,14 +142,5 @@ These modules should implement standard UART protocol with configurable baud rat
 - Support for longer message packets
 - Flow control implementation
 
-## License
-
-This project is open source and available for educational and commercial use.
-
-## Author
-
-Created for FPGA-based Bluetooth communication testing.
-
-## Version History
 
 - **v1.0** - Initial release with basic echo functionality
