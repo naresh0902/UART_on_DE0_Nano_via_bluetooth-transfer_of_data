@@ -31,7 +31,7 @@ This project implements a basic communication loop between a smartphone and an F
 ```
 HC-05 TX  → FPGA RX
 HC-05 RX  → FPGA TX
-HC-05 VCC → 5V/3.3V (check your module specs)
+HC-05 VCC → 3.3V 
 HC-05 GND → GND
 ```
 
@@ -45,8 +45,8 @@ You need to assign these pins in your constraint file:
 ## Software Requirements
 
 ### FPGA Development
-- Vivado/Quartus (depending on your FPGA)
-- UART RX and TX modules (not included in this repository)
+- Quartus
+- UART RX and TX modules
 
 ### Smartphone App
 Any Bluetooth serial terminal app:
@@ -143,4 +143,3 @@ These modules should implement standard UART protocol with configurable baud rat
 - Flow control implementation
 
 
-- **v1.0** - Initial release with basic echo functionality
